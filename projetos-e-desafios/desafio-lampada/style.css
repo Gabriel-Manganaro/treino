@@ -1,0 +1,65 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #303030;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#Principal{
+    display:grid;
+    grid-auto-flow:column ;
+    grid-auto-columns: 33vw;
+    text-align: center;
+    color: white;
+}
+#imgs{
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 20%;
+    background-color: white;  
+    text-align: center;
+    margin-left: 40%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}  
+#imgL{
+    display: none;
+}  
+#imgQ{
+    display: none; 
+}
+#imgD{
+    text-align: center;
+}
+.imgs{
+    background: none;
+    text-align: center;
+    padding: 20px;
+}
+#ligar{
+    margin-left: 11%;
+    width: 70px;
+    font-size: medium;
+}
+#desligar{
+    margin-left: 24%;
+    width: 70px;
+    font-size: medium;
+}
+.botao{
+    cursor: pointer;
+    text-align: center;
+    background-color:aqua ;
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#botao{
+    background-color: white;
+    margin-left: 40%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 20%;
+}
+

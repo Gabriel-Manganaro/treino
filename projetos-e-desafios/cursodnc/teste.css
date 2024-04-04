@@ -1,0 +1,14 @@
+#div1 {
+    background-color: #0dbb72;
+    width: 50%;
+    height: 50%;
+    font-style: italic;
+    color:red; 
+}       
+#div2 {
+    background-color: #0d10bb;
+    width: 50%;
+    height: 50%;
+    font-style:oblique;
+    color:rgb(255, 0, 170);
+}

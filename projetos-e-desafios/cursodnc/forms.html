@@ -1,0 +1,46 @@
+<h1>Meu Forms</h1>
+<form action="https://formspree.io/f/xnqkyeoz" method="post">
+    <label>Digite seu Nome</label>
+    <br>
+    <!-- inputs de exemplo-->
+    <!--placeholder some ao digitar algo/ valeu é usado quando ja é algo pre definido como cidade, dados etc -->
+    <input placeholder="Digite seu Nome ..." type="text" required="required" value="" name="Nome">
+    <br>
+    <br>
+    <label>Digite seu Comentario</label>
+    <br>
+    <!--required="required" coloca o campo como obrigatorio a ser preencido -->
+    <!--rows sao colunas e cols são linhas para escrita -->
+    <textarea rows="10" cols="25" required placeholder="No que posso Ajudar?"></textarea>
+    
+    <br>
+    <!--checkbox multiplas escolhas e radio buttons apenas uma escolha-->
+    <br>
+    <label>Escolha sua Cor</label>
+    <ul>
+        <!--colocar sim ou nao para q possa apenas escolher um-->
+        <li><input name="Cor" value="Sim" type="radio">Vemelho</li>
+        <li><input name="Cor" value="Sim" type="radio">Azul</li>
+        <li><input name="Cor" value="Sim" type="radio">Cidade</li>
+    </ul>
+    <p>
+        <label>Escolha sua Cidade</label>
+        <br>
+        <select>
+            <option name="Sp">São Paulo</option>
+            <option name="Rj">Rio de Janeiro</option>
+            <option name="Rs">Rio Grande do Sul</option>
+            <option name="Rn">Rio Grande do Norte</option>    
+        </select>
+    </p>
+    
+  
+    <p>
+        <input value="Sim" name="TermosdeAcesso" type="checkbox"> Eu concordo com os Termos
+    </p>  
+    <button type="submit">Enviar</button>
+    <br>
+    <button><a target="" href="teste.html">Volta</a></button>
+    <!--aproveitando pra treina a tag <a> <href> <target>-->
+</form>
+

@@ -1,0 +1,50 @@
+/*--no css para comitar é*/
+#inicio {
+
+    background-color: rgb(248, 200, 128);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Hubballi', sans-serif;
+    border-radius: 10px;
+
+}
+#inicio1 {
+    background-color: rgb(255, 255, 255);
+     margin: 0 auto;
+     width: 399px;
+     border-radius: 15px;
+     text-align: center;
+}
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+#listaContatos {
+    /* list-style-type: none; retiras os pontonhos pretos das listas*/
+    list-style-type: none;
+}
+#listaContatos i {
+    width: 30px;
+    color:rgb(248, 200, 128) ;
+}
+#font{
+    display: grid;
+    grid-template-columns: 30% auto;
+    font-family: 'Hubballi', sans-serif;
+    grid-column-gap: 20px;
+}
+#text, #corpo {
+    display: flex;
+    flex-direction:column;
+    row-gap: 20px;
+}
+/* A ORDEM Q COLOCAS AS PESONALIZAÇÕES É A ORDE DE PRIORIDADE Q O HTML VAI ENTENDER*/
+.card h3{
+    font-family: 'Hubballi', sans-serif;
+}
+.card {
+   font-family:Arial, Helvetica, sans-serif;
+   border: 1px solid #9b9b9b;
+   border-radius: 15px;
+   padding: 20px;
+}

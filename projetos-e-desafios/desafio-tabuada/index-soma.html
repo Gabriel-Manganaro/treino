@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="PT-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-soma.css"> 
+    <title>Tabuada</title>
+</head>
+    
+</head>
+<body>
+    <header>
+        <img id="logo" src="logo-dnc.svg" alt="">
+        <h1 id="tabuada"> 
+            Tabuada (X + Y = N)   
+        </h1>
+        
+    </header>
+    <div id="operações" >
+        <li><a target="_blank" href="index-soma.html" >Soma (+)</a></li>
+        <br>
+        <li><a target="_blank" href="index-sub.html" >Subtração (-)</a></li>
+        <br>
+        <li><a target="_blank" href="index.html" >Multipicação (*)</a></li>
+        <br>
+        <li><a target="_blank" href="index-divisao.html" >Divisão (/)</a></li>
+    </div>
+    <section>
+        <div id="Dzero">
+             <p>
+                Qual tabuada você deseja ?
+                <br>
+                <br>
+                <input id="num" class="input" type="number">
+            </p>
+            <p>
+                Até qual multiplicador ?
+                <br>
+                <br>
+                <input id="end" class="input" type="number">
+            </p>
+            <input type="button" value="Calcular" onclick="tabuada()" id="botao">
+        </div>
+        <div id="resultado">
+            <p>
+                Preencha os valores acima!!
+            </p>
+        </div>
+
+       
+    </section>
+    <script src="tabuada-script-soma.js"></script>
+</body>
+</html>

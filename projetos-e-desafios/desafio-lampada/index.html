@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" > 
+    <title>Lampada</title>
+</head>
+<body>
+   
+    <header id="Principal" >
+        <img src="logo-dnc.svg" alt="">
+        <h1>
+            Lampada
+        </h1> 
+    </header>
+    <div id="imgs" onclick="lampadaQuebrada()"  >
+        <img class="imgs" id="imgL" src="img-1.svg" alt="">
+        <img class="imgs" id="imgD" src="img-2.svg" alt="">
+        <img class="imgs" id="imgQ" src="img-3.svg" alt="">
+        
+    </div>
+    <div id="botao">
+        <input class="botao" id="ligar" value="Ligar" type="button" onclick="lampadaLigada()">
+        <input class="botao" id="desligar" value="Desligar" type="button" onclick="lampadaDesligada()" >
+    </div>
+    <script src="index.js" ></script>    
+</body>
+</html>

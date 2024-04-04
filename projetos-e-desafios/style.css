@@ -1,0 +1,53 @@
+body{
+    background-color: #303030;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#bem-vindo{
+    text-align: center;
+    font-weight: bolder;
+}
+.frente{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+    text-align: center;
+    border-bottom: 0px;
+   
+    width:100px;
+    height: 100px;
+}
+.fotos{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; 
+    padding:10px ;
+}
+#clicks{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+    text-align: center;
+    border-bottom: 0px;
+}
+.botao {
+    background-color: aliceblue;
+    border: 0px;
+    border-radius: 5px;
+    width: 120px;
+    padding: 2px;
+    text-decoration:none;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.botao a {
+    text-decoration: none;
+    color: black;
+}
+.botao:hover {
+    transform: translateY(-2px);
+}
+.fotos:hover{
+    transform: translateY(-2px);
+}
